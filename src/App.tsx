@@ -1,8 +1,9 @@
-import { Button } from './components/atoms/button'
+import { Button, Header } from '@/components'
 
 function App() {
   return (
     <>
+      <Header />
       <main className=''>
         <Button size={'lg'}>hola</Button>
       </main>
